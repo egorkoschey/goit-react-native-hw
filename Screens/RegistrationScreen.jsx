@@ -62,7 +62,7 @@ const RegistrationScreen = ({ navigation }) => {
       <View style={styles.container} onLayout={onLayoutRootView}>
         <ImageBackground
           style={styles.image}
-          source={require("../assets/PhotoBG.png")}
+          source={require("../assets/photoBG.png")}
         >
           <View style={styles.imageWrapper}>
             <Image source={require("../assets/frame.png")} />
